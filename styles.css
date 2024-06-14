@@ -9,16 +9,24 @@ body, ul, li, h1, h2, h3, a{
     color: #000;
 }
 
-
+/* header{
+    background-color: #ffffff;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    border: 1px solid black;  
+    border-radius: 50px;
+} */
 
 header{
     color: #000000;
-    /* background-color: #f4f4f4; */
+    background-color: #f4f4f4;
     position: fixed;
-    width: 90%;
+    width: 63%;
     border: 1px solid black;
     margin: 10px;
-    padding: 6px 12px;
+    padding: 1px 50px;
     border-radius: 50px;
     z-index: 1;
 }
