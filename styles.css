@@ -63,3 +63,10 @@ main{
 .price span{
     font-weight: normal;
 }
+
+.past-experiences img{
+    object-fit: cover;
+    width: 365px;
+    height: 365px;
+    border-radius: 5%;
+}
