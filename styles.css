@@ -27,16 +27,16 @@ nav{
     background-color: #f4f4f4;
     padding: 20px;
 }
-nav ul{
+.main-nav ul{
     white-space: nowrap;
     /* max-width: 100%;
     margin: 0 auto; */
 }
-nav li{
+.main-nav li{
     width: 25%;
     display: inline-block;
 }
-nav li a{
+.main-nav li a{
     text-decoration: none;
     color: #4b4b4b;
 }
@@ -104,4 +104,9 @@ main{
 }
 .places ul span{
     font-weight: bold
+}
+.currency ul{
+    /* font-weight: bold */
+    width: 150%;
+    display: inline-block;
 }
