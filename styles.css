@@ -35,7 +35,6 @@ nav ul{
 nav li{
     width: 25%;
     display: inline-block;
-    font-size: 24px;
 }
 nav li a{
     text-decoration: none;
@@ -86,3 +85,10 @@ main{
 .airbnb span{
     text-decoration: underline;
 }
+.inspiration{
+    background-color: #e9e6e6;
+    max-width: 100%;
+    width: 1200px;
+    margin: 80% auto;
+}
+
