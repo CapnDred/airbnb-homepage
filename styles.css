@@ -1,3 +1,17 @@
+body {
+    
+    font-family: arial;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sticky-header {
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
 /* body, ul, li, h1, h2, h3, a{ */
 body {
     /* margin: 0; */
@@ -21,6 +35,7 @@ body {
 } */
 
 .main-container {
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
@@ -76,7 +91,9 @@ nav {
 .icons img {
     width: 25px;
 }
-
+.main-nav{
+    background-color: white;
+}
 .main-nav ul{
     white-space: nowrap;
     /* max-width: 100%;
@@ -85,94 +102,9 @@ nav {
 .main-nav li{
     width: 25%;
     display: inline-block;
+    background-color: white;
 }
 .main-nav li a{
     text-decoration: none;
     color: #4b4b4b;
-}
-
-
-main{
-    /* max-width: 100%; */
-    /* width: 1200px; */
-    /* margin: 80% auto 0; */
-    margin: 60% auto 0;
-}
-
-.listings img{
-    object-fit: cover;
-    width: 365px;
-    height: 365px;
-    border-radius: 5%;
-}
-
-.name{
-    font-weight: bold;
-}
-
-.host{
-    color:#808080;
-}
-
-.price{
-    font-weight: bold;
-}
-
-.price span{
-    font-weight: normal;
-}
-
-.past-experiences img{
-    object-fit: cover;
-    width: 365px;
-    height: 365px;
-    border-radius: 5%;
-}
-
-.divider2{
-    color:#808080
-}
-
-.airbnb span{
-    text-decoration: underline;
-}
-.inspiration{
-    background-color: #e9e6e6;
-    /* max-width: 100%; */
-    /* width: 1200px; */
-    /* margin: 80% auto; */
-}
-
-.links{
-    background-color: #e9e6e6;
-}
-
-.inspiration-menu ul {
-    white-space: nowrap;
-}
-
-.inspiration-menu li {
-    display: inline-block;
-}
-
-.links a {
-    text-decoration: none;
-    color: #4b4b4b;
-}
-
-.places ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
-    gap: 20px; /* Space between the columns and rows */
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-.places ul span{
-    font-weight: bold
-}
-.currency ul{
-    /* font-weight: bold */
-    width: 100%;
-    display: inline-block;
 }
